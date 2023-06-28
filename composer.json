@@ -1,0 +1,36 @@
+{
+    "name": "Mirocow/docker-deployer-recipes",
+    "description": "3rd party deployer recipes",
+    "type": "library",
+    "keywords": [
+        "deployer",
+        "recipes",
+        "deploy",
+        "deployment",
+        "docker"
+    ],
+    "homepage": "https://github.com/Mirocow/docker-deployer-recipes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mirocow",
+            "email": "mr.mirocow@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Mirocow/docker-deployer-recipes/issues",
+        "source": "https://github.com/Mirocow/docker-deployer-recipes"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "deployer/deployer": "^7.3"
+    }
+}
